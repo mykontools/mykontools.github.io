@@ -1365,3 +1365,6 @@ footer .btn{
 .image-zoom:hover img {
     transform: scale(1.5);
   } 
+p{
+    text-align: justify;
+}
