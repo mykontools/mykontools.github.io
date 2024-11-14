@@ -13,13 +13,16 @@
     --border-radius-image:20px
 }
 html body{
-    font-family: "Gowun Batang", system-ui;
-    /*font-family: "Cinzel", system-ui;*/
+    /*font-family: "Bebas Neue", sans-serif;*/
+    /*font-family: "Ubuntu Sans", sans-serif;*/
+    /*font-family: "Gowun Batang", system-ui;*/
+    font-family: "Cinzel", system-ui;
     /*font-family: "Orbitron", sans-serif;*/
     /*font-family: "Josefin Slab", serif;*/
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
+
 }
 /*-------navbar-------*/
 @media (min-width: 768px) {
@@ -55,7 +58,10 @@ html body{
   }
 .navbar{   
     background:#070707dc;
-    font-weight: bolder;
+    font-family: "Cinzel", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -181,6 +187,7 @@ background:var(--bs-typing-text);
     width: 100%;
     height: 80vh;
     padding: 0;
+    font-weight: 300;
 }
 #hero .paragraf{
     padding-top: 120px;
@@ -191,16 +198,13 @@ background:var(--bs-typing-text);
 }
 #hero .paragraf .breadcrumb{
     justify-content: center;
-    font-weight:900
 }
 
 #hero .paragraf .breadcrumb .active{
     color: var(--bs-typing-text);
-    font-weight: bolder;
 }
 #hero .paragraf h2 {
     font-size: clamp(2rem,4vw,10rem);
-    font-weight: bolder;
     padding-bottom: 20px;
 }
 #hero .paragraf h3 {
@@ -274,7 +278,6 @@ background:var(--bs-typing-text);
 }
 #hero-GRID .paragraf .breadcrumb{
     justify-content: center;
-    font-weight:900
 }
 
 #hero-GRID .paragraf .breadcrumb .active{
@@ -283,7 +286,6 @@ background:var(--bs-typing-text);
 }
 #hero-GRID .paragraf h2 {
     font-size: clamp(2rem,4vw,10rem);
-    font-weight: bolder;
     padding-bottom: 20px;
 }
 #hero-GRID .paragraf h3 {
@@ -1365,6 +1367,6 @@ footer .btn{
 .image-zoom:hover img {
     transform: scale(1.5);
   } 
-p{
+.accordion-body,p{
     text-align: justify;
 }
