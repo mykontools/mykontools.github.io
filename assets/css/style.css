@@ -208,13 +208,11 @@ background:var(--bs-typing-text);
     padding-bottom: 20px;
 }
 #hero .paragraf h3{
-    /*font-size: clamp(2rem,4rem,6rem);*/
-    font-size: clamp(20px,3vw,40px;);
+    font-size: clamp(1rem, 10vw, 5rem); 
     padding-bottom: 20px;
 }
 #hero .typing-text {
-    /*font-size: clamp(2rem,4rem,6rem);*/
-	font-size: clamp(20px,3vw,40px;);
+    font-size: clamp(1rem, 10vw, 5rem); 
 }
 
 #hero .carousel {
