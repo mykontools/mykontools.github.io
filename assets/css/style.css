@@ -207,12 +207,12 @@ background:var(--bs-typing-text);
     font-size: clamp(2rem,4vw,10rem);
     padding-bottom: 20px;
 }
-#hero .paragraf h3 {
-    font-size: clamp(1rem,3vw,4rem);
+#hero .paragraf h3{
+    font-size: clamp(2rem,2vw,6rem);
     padding-bottom: 20px;
 }
 #hero .typing-text {
-    font-size: clamp(1rem,3vw,4rem);
+    font-size: clamp(2rem,2vw,6rem);
 }
 
 #hero .carousel {
@@ -301,7 +301,7 @@ background:var(--bs-typing-text);
 }
 
 #hero-GRID .paragraf h6{
-    font-size: clamp(1rem,2vw,5rem);
+    font-size: clamp(1rem,2vw,7rem);
     color:var(--bs-typing-text);
 }
 #hero-GRID .paragraf h6 span {
