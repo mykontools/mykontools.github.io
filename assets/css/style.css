@@ -209,12 +209,12 @@ background:var(--bs-typing-text);
 }
 #hero .paragraf h3{
     /*font-size: clamp(2rem,4rem,6rem);*/
-    font-size: clamp(20px,30px,40px;);
+    font-size: clamp(20px,3vw,40px;);
     padding-bottom: 20px;
 }
 #hero .typing-text {
     /*font-size: clamp(2rem,4rem,6rem);*/
-	font-size: clamp(20px,30px,40px;);
+	font-size: clamp(20px,3vw,40px;);
 }
 
 #hero .carousel {
