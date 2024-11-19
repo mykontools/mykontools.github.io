@@ -208,20 +208,21 @@ background:var(--bs-typing-text);
     color: var(--bs-typing-text);
 }
 #hero .paragraf h2 {
-    font-size: clamp(2rem,4vw,10rem);
+    font-size: clamp(2rem,4vw,6rem);
     padding-bottom: 20px;
 }
 #hero .paragraf h3,.typing-text{
     font-family: OstrichSans-sans-dashed;
     font-size: clamp(1rem, 10vw, 8rem);
     text-shadow: 1px 1px var(--bs-typing-text);
+}
 
 #hero .carousel {
     padding-top : 20px;
 }
 
 #hero .paragraf h6{
-    font-size: clamp(1rem,2vw,5rem);
+    font-size: clamp(2rem,2vw,5rem);
     color:var(--bs-typing-text);
     text-shadow: 1px 1px var(--bs-white);
 }
