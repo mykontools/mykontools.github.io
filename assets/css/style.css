@@ -12,6 +12,10 @@
     --margin-section-top:90px;
     --border-radius-image:20px
 }
+@font-face {    
+    font-family: OstrichSans-sans-dashed;
+    src: url(../ostrich-sans-master/OstrichSansRounded-Medium.otf);
+  }
 html body{
     /*font-family: "Bebas Neue", sans-serif;*/
     /*font-family: "Ubuntu Sans", sans-serif;*/
@@ -208,7 +212,8 @@ background:var(--bs-typing-text);
     padding-bottom: 20px;
 }
 #hero .paragraf h3{
-    font-size: clamp(1rem, 10vw, 5rem); 
+    font-family: OstrichSans-sans-dashed;
+    font-size: clamp(1rem, 10vw, 6rem);
     padding-bottom: 20px;
 }
 #hero .typing-text {
