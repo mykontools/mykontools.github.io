@@ -214,7 +214,7 @@ background:var(--bs-typing-text);
 #hero .paragraf h3{
     font-family: OstrichSans-sans-dashed;
     font-size: clamp(1rem, 10vw, 6rem);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 #hero .typing-text {
     font-size: clamp(1rem, 10vw, 5rem); 
