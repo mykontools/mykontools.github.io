@@ -213,7 +213,7 @@ background:var(--bs-typing-text);
 }
 #hero .paragraf h3,.typing-text{
     font-family: OstrichSans-sans-dashed;
-    font-size: clamp(1rem, 10vw, 8rem);
+    font-size: clamp(4rem, 8vw, 6rem);
     text-shadow: 1px 1px var(--bs-typing-text);
 }
 
